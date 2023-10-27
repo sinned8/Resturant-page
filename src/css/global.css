@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('/src/assests/img/ee.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    background-color: transparent;
+    color: white;
+    padding: 1em;
+    font-size: 1.75em;
+    font-weight: 600;
+}
+header ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.25em;
+}
+header li{
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
