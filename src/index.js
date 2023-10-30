@@ -27,13 +27,3 @@ export function renderSection(tab) {
 }
 
 renderSection('Home');
-// function component() {
-//     const element = document.createElement('div');
- 
-//    element.innerHTML = 'test'
-//    element.classList.add('content');
- 
-//     return element;
-//   }
- 
-//   document.body.appendChild(component());

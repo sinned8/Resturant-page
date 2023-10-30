@@ -28,5 +28,12 @@ export default function createHome() {
 
     home.appendChild(CTAcontainer)
 
+    menuBttn.addEventListener('click', () => {
+        renderSection('Menu')
+    })
+    contactBttn.addEventListener('click', () => {
+        renderSection('Contact')
+    })
+
     return home;
 }

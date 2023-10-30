@@ -11,10 +11,11 @@
     color: #fff;
     font-size: 3rem;
     margin: 1rem 0;
+    border-bottom: 2px solid #ff9000;
 }
 #home p{
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 #CTAcontainer{
