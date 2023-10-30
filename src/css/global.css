@@ -19,11 +19,24 @@ header{
 header ul{
     display: flex;
     justify-content: flex-end;
-    gap: 1.25em;
+    gap: 1em;
 }
 header li{
+    padding: .6rem 1rem;
     cursor: pointer;
+}
+header li:hover{
+    color: #ff9000;
+    border-radius: 3px;
+    border-bottom: 4px solid #aaa;
+    background-color: #fff;
 }
 ul{
     list-style: none;
+}
+
+
+.active-nav{
+    border-bottom: 2px solid #ff9000;
+    background-color: rgba(111, 111, 111, 0.1);
 }
