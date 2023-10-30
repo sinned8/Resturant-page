@@ -1,0 +1,40 @@
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 2rem 5rem;
+    min-height: 70vh;
+}
+#home h1{
+    color: #fff;
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+#home p{
+    color: #fff;
+    font-size: 1rem;
+}
+
+#CTAcontainer{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+button{
+    width: 10rem;
+    height: 2rem;
+    font-weight: bold;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    border: 2px solid #ff9000;
+}

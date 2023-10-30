@@ -8,6 +8,8 @@ body{
     background-image: url('/src/assests/img/ee.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    
 }
 header{
     background-color: transparent;
