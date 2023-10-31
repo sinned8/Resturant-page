@@ -3,6 +3,7 @@ import './css/global.css'
 import './css/home.css'
 import createHome from './sections/home'
 import createHeader from './components/header'
+import createMenu from './sections/menu'
 document.body.prepend(createHeader())
 
 const content = document.getElementById('content')
