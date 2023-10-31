@@ -1,0 +1,37 @@
+#contact{
+    color: #fff;
+}
+
+#contact h2{
+    max-width: 85vw;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 2px solid #ff9000;
+}
+
+#contact .contact-div{
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    max-width: 85vw;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;
+}
+
+#contact .contact-div > div{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+#contact .contact-div #map-location{
+    width: 600px;
+}
+
+#contact .contact-div img{
+    width: 1rem;
+}

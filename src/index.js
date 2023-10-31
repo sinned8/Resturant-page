@@ -4,6 +4,7 @@ import './css/home.css'
 import createHome from './sections/home'
 import createHeader from './components/header'
 import createMenu from './sections/menu'
+import createContact from './sections/contact'
 document.body.prepend(createHeader())
 
 const content = document.getElementById('content')
